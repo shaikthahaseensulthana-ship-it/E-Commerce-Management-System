@@ -1,4 +1,14 @@
-out/
+# Eclipse metadata files (the ones you just deleted)
+.classpath
+.project
+.settings/
+
+# Compiled Java classes and build outputs
 *.class
-.idea/
-.vscode/
+bin/
+build/
+target/
+
+# OS specific files
+.DS_Store
+Thumbs.db
