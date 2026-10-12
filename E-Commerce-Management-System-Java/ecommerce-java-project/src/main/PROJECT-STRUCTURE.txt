@@ -1,0 +1,33 @@
+E-Commerce Management System
+
+src/main/java/com/ecommerce/
+  main/
+    ECommerceApplication.java
+  model/
+    User.java
+    Customer.java
+    Admin.java
+    Product.java
+    Electronics.java
+    Clothing.java
+    Grocery.java
+    Cart.java
+    CartItem.java
+    Order.java
+  payment/
+    Payment.java
+    UpiPayment.java
+    CardPayment.java
+    CashPayment.java
+  service/
+    ProductService.java
+    CustomerService.java
+    OrderService.java
+    DiscountService.java
+  exception/
+    ProductNotFoundException.java
+    InsufficientStockException.java
+
+README.md       Setup, login credentials, and feature notes
+run.bat         Compile and run on Windows
+run.sh          Compile and run on macOS/Linux
